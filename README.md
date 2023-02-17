@@ -3,4 +3,5 @@
 
 [정유민](https://github.com/chung-youmin)
 
-git 
+my first homepage 
+https://chung-youmin.github.io/2023_my-home/01site
