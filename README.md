@@ -4,3 +4,5 @@
 
 
 [정유민](https://github.com/chung-youmin)
+1. 안녕하세요
+1. 반갑습니다 
