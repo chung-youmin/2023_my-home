@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* font */
+body{font-family: 'Nanum Gothic', sans-serif;
+  font-size: 14px;}
+
+
+/* reset */
+html,body{height: 100%;}
+*{margin: 0;padding: 0;box-sizing: border-box;}
+li{list-style: none;}
+a:link,a:visited{text-decoration: none;color:#888}
+.clearfix:after{content: "";display: block; clear: both;}
+
+.container{width: 980px ; margin: 0 auto;}
+
+/* header */
+
+
+#hd .subWrap{float: right;}
+#hd .submenu li{
+  display: block; 
+  position: relative;
+  margin-right:10px;
+  background-color: red;
+  float:left;}
+
+#hd .submenu li a{display: block; 
+                  content: "";
+ }
+
+#hd .submenu li a:after{position: absolute;
+    width: 4px;
+    height: 10px;
+    color: black;}
+
+
+    
+/* visual */
+/* banner */
+/* job */
+/* con */
+/* footer */
