@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* reset */
+html,body{height: 100%;}
+*{margin: 0;padding: 0;box-sizing: border-box;}
+li{list-style: none;}
+.clearfix:after{content: "";display: block;clear: both;}
+a:link,a:visited{text-decoration: none;color: black;}
+
+/* 공통상항 */
+img{display: block;}
+.container{
+  width: 1280px;
+  margin: 0 auto; 
+  position: relative;}
+
+/* font */
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;}
+.menuFont{font-size: 20px; font-weight: 700;}  
+
+/* header */
+#hd{
+  padding: 20px 0;
+  background: white;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;  
+  /* position을 fixed 해도 가장 위에 있기 위해 z-index 값을 최대치로 줌 */
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+#hd .navWrap{height: 35px;}
+
+#hd h1{width: 165px;
+        height: 35px;
+        float: left;}
+
+#hd h1 img{width: 100%;}
+#hd .gnb{float: right;}
+#hd .gnb li{float:left;width: 170px;}
+#hd .gnb li a{display: block; 
+  line-height: 35px;
+  text-align: center;
+}
+
