@@ -101,6 +101,7 @@ padding: 2px;}
   transform: translateY(-2em);
 }
 /* purpose */
+.purpose{height: 500px;}
 
 .purpose .purWrap{display: block;
   height: 338px;
@@ -119,6 +120,11 @@ top:100px;left:100px;}
   float: right;
   position: relative;
   top:100px;
-  z-index: 999;}
+  z-index: 999;
+}
 
 /* footer */
+#ft{background-color: #171717;
+;}
+#ft .footerWrap{padding: 50px;
+  color:white;}
