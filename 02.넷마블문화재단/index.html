@@ -18,6 +18,9 @@
   <!-- bxSlider css  -->
   <link rel="stylesheet" href="./css/jquery.bxslider.min.css">
 
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -113,11 +116,112 @@
         </ul> 
       </div>
     </div>
-    <div class="swiperWrap">
-<!-- swiper -->
+
+    <!--swiper demo  -->
+<!-- Swiper -->
+<div class="sWrapcon ">
+  <div class="sWrap container">
+    <div class="swiper mySwiper ">
+      <div class="swiper-wrapper ">
+        <!-- items start 1 -->
+        <div class="swiper-slide item1">
+  
+          <div class="itemWrap">
+            <div class="tWrap">
+              <h3>넷마블문화재단 사업기획 및 운영<br>담당자모집</h3>
+              <p>넷마블문화재단에서 아래와 같이 새로운 직원을 모집합니다.많은 분들의 지원 바랍니다.<br><br>1.직무.. </p>
+            </div>
+          </div>
+        </div>
+        <!-- items end 1 -->
+        <!-- items start 2 -->
+        <div class="swiper-slide item2">
+          <div class="itemWrap">
+            <div class="imgWrap" style="background-image: url(./images/logo.jpg);">
+            </div>
+            <div class="tWrap">
+              <h3>2022년 기부금품모집완료 내역 보고</h3>
+              <p>재단법인 넷마블문화재단은 '기부금품의 모집 및<br> 사용에 관한 법륳에 의거하여 기부금품 모집 내역...</p>
+            </div>
+          </div>
+        </div>
+        <!-- items end 2 -->
+        <!-- items start 3 -->
+        <div class="swiper-slide item2">
+          <div class="itemWrap">
+            <div class="imgWrap" style="background-image: url(./images/main/일단보류/gamecomunicate.jpg);">
+            </div>
+            <div class="tWrap">
+              <h3>2022년 함께하는 게인소통학교 모집(심화교육)</h3>
+              <p>교육 신청 링크:</p>
+              <p><a href="#">http://forms.gle/4huU...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- items end 3 -->
+  <!-- items start 4 -->
+  <div class="swiper-slide item2">
+  <div class="itemWrap">
+    <div class="imgWrap" style="background-image: url(./images/main/일단보류/swiper1.jpg);">
+    </div>
+    <div class="tWrap">
+      <h3>제14회 게임콘서트 개최 안내</h3>
+      <p>">>> 9월 게임콘서트 참여하기 링크<<<" </p>
     </div>
   </div>
+  </div>
+  <!-- items end 4 -->
+  
+  <!-- items start 5 -->
+  <div class="swiper-slide item2">
+  <div class="itemWrap">
+    <div class="imgWrap" style="background-image: url(./images/main/일단보류/swiper2.jpg);">
+    </div>
+    <div class="tWrap">
+      <h3>[게임소통학교]도미노 영상 이벤트 결과 발표</h3>
+      <p></p>
+    </div>
+  </div>
+  </div>
+  <!-- items end 5 -->
+  
+  <!-- items start 6 -->
+  <div class="swiper-slide item2">
+  <div class="itemWrap">
+    <div class="imgWrap" style="background-image: url(./images/main/일단보류/swiper_1.jpg);">
+    </div>
+    <div class="tWrap">
+      <h3>넷마블게임박물관 건립준비캠페인</h3>
+      <p> </p>
+    </div>
+  </div>
+  </div>
+  <!-- items end 6 -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+</div>
 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      }
+    },
+    );
+
+  </script>
+
+
+<!--swiper demo  -->
 
   <!-- footer -->
   <footer id="ft">
@@ -128,7 +232,7 @@
         <div class="fmSite">
           <button class="dropbtn">Family Site</button>
           <div class="dropdown-content">
-            <a href="#">Gaim in life공모전</a>
+            <a href="#">Game in life공모전</a>
             <a href="#">어깨동무문고</a>
             <a href="#">넷마블컴퍼티</a>
             <a href="#">넷마블 게임포털</a>
